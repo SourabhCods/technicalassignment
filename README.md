@@ -86,7 +86,4 @@ To update an existing product, go to **Body → raw → JSON** and paste:
 
 ##  Important Notes
 
-- All data is stored in a temporary in-memory array.
--  **Changes will not persist after the server restarts.**
-- This is intended for backend logic testing only, without using a database.
-- Feel free to experiment by modifying or adding your data.
+-  **Changes will not persist after the server restarts because all data is stored in a temporary in-memory array.**
